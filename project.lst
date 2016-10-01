@@ -1,0 +1,58 @@
+eeschema (2013-jul-07)-stable  >> Creation date: So 08 Feb 2015 15:26:27 CET
+#Cmp ( order = Reference )
+| C1         1u          
+| C2         1u          
+| C3         10u         
+| C4         10u         
+| C5         100n        
+| C6         100n        
+| C7         100n        
+| J1         REICHELT_EBS35
+| J2         REICHELT_EBS35
+| K1         CONN_3      
+| K2         CONN_3      
+| K3         CONN_3      
+| P1         CONN_2      
+| R1         10k         
+| R2         1M          
+| R3         1M          
+| R4         1M          
+| R5         1M          
+| R6         10k         
+| R7         220         
+| R8         220         
+| R9         10k         
+| R10        10k         
+| U1         MCP4461     
+| U2         TLC274      
+#End Cmp
+
+#Cmp ( order = Value )
+| 100n         C5        
+| 100n         C6        
+| 100n         C7        
+| 1u           C1        
+| 1u           C2        
+| 10u          C3        
+| 10u          C4        
+| REICHELT_EBS35 J1        
+| REICHELT_EBS35 J2        
+| CONN_3       K1        
+| CONN_3       K2        
+| CONN_3       K3        
+| CONN_2       P1        
+| 220          R7        
+| 220          R8        
+| 10k          R1        
+| 10k          R6        
+| 10k          R9        
+| 10k          R10       
+| 1M           R2        
+| 1M           R3        
+| 1M           R4        
+| 1M           R5        
+| TLC274       U2        
+| MCP4461      U1        
+#End Cmp
+
+#End List
